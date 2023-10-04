@@ -674,13 +674,13 @@ path {
   transform: translateY(-50%);
 }
 
-.modal-current-icon {
+/* .modal-current-icon {
   fill: #4d5ae5;
 }
 
 .modal-current-input {
   border-color: #4d5ae5;
-}
+} */
 
 .modal-checkbox {
   margin-bottom: 24px;
