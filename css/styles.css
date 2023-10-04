@@ -581,14 +581,6 @@ path {
   fill: #ffffff;
 }
 
-.modal-close:hover {
-  fill: #ffffff;
-}
-
-.modal-close:focus {
-  fill: #ffffff;
-}
-
 .modal-close-icon {
   fill: transparent;
   stroke: #2e2f42;
@@ -596,7 +588,7 @@ path {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-title {
