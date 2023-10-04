@@ -581,6 +581,14 @@ path {
   fill: #ffffff;
 }
 
+.modal-close:hover {
+  fill: #ffffff;
+}
+
+.modal-close:focus {
+  fill: #ffffff;
+}
+
 .modal-close-icon {
   fill: transparent;
   stroke: #2e2f42;
