@@ -646,6 +646,10 @@ path {
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
+.modal-textarea-container {
+  margin-bottom: 16px;
+}
+
 .modal-textarea {
   height: 120px;
   font-size: 12px;
