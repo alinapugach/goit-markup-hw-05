@@ -626,9 +626,12 @@ path {
 }
 
 .modal-input {
+  width: 360px;
   height: 40px;
   padding-left: 38px;
   background-color: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -638,18 +641,12 @@ path {
   fill: #4d5ae5;
 }
 
-.modal-input,
-.modal-textarea {
-  width: 360px;
-  border-radius: 4px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-}
-
 .modal-textarea-container {
   margin-bottom: 16px;
 }
 
 .modal-textarea {
+  width: 360px;
   height: 120px;
   font-size: 12px;
   line-height: 1.17;
@@ -678,13 +675,6 @@ path {
 .modal-form-icon:hover,
 .modal-form-icon:focus {
   fill: #4d5ae5;
-}
-
-.modal-input:focus {
-  fill: #4d5ae5;
-}
-.modal-input:focus + .modal-form-icon {
-  stroke: #4d5ae5;
 }
 
 .modal-checkbox {
