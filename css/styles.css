@@ -674,14 +674,6 @@ path {
   transform: translateY(-50%);
 }
 
-/* .modal-current-icon {
-  fill: #4d5ae5;
-}
-
-.modal-current-input {
-  border-color: #4d5ae5;
-} */
-
 .modal-checkbox {
   margin-bottom: 24px;
 }
@@ -691,6 +683,9 @@ path {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display: flex;
+  align-items: center;
+  align-items: flex-end;
 }
 
 .modal-checkbox-window {
@@ -701,11 +696,16 @@ path {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+}
+
+.modal-checkbox-input:checked + .modal-checkbox-label > .modal-checkbox-window {
+  background-color: #4d5ae5;
+  border: none;
+  fill: #ffffff;
 }
 
 .privacy-policy {
